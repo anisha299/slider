@@ -106,7 +106,7 @@ export default function useDrag(
 
     // Moving
     const onMouseMove = (event: MouseEvent | TouchEvent) => {
-      event.preventDefault();
+      // event.preventDefault();
 
       const { pageX: moveX, pageY: moveY } = getPosition(event);
       const offsetX = moveX - startX;
